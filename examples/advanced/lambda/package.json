@@ -1,0 +1,30 @@
+{
+  "name": "advanced-serverless-lambda",
+  "version": "1.0.0",
+  "description": "Advanced serverless Lambda function with DynamoDB integration, batch operations, and comprehensive error handling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm install --production",
+    "package": "zip -r function.zip . -x '*.git*' 'node_modules/.cache/*' '*.test.js'"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1450.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "dynamodb",
+    "serverless",
+    "api-gateway",
+    "batch-operations"
+  ],
+  "author": "DevOps Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
